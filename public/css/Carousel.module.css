@@ -1,0 +1,58 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 7%;
+  margin-top: 5%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.carousel .carouselContent {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(calc(-100% * var(--current-index, 0)));
+}
+.carousel .carouselContent .slide {
+  flex: 0 0 100%;
+  text-align: center;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.5s, transform 0.5s;
+}
+.carousel .carouselContent .slide.active {
+  opacity: 1;
+  transform: scale(1);
+}
+.carousel .carouselContent .slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.carousel .carouselContent .slide h3 {
+  margin: 10px 0;
+  color: #333;
+  font-size: 1.2rem;
+}
+.carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0);
+  color: rgb(208, 208, 208);
+  border: none;
+  padding: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 50%;
+}
+.carousel button:hover {
+  color: rgb(255, 255, 255);
+}
+.carousel button.prev {
+  left: 10px;
+}
+.carousel button.next {
+  right: 10px;
+}

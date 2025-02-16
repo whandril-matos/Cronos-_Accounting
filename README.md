@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Website Description
+This project is a dynamic landing page developed with a focus on performance, modularity and code reuse, using the following technologies:
 
-## Getting Started
+🛠 Technologies Used
+React – Structures the website in reusable components and maintains the dynamic interface.
+Next.js – For better organization and performance when loading the page.
+SCSS (Sass) – Used for modular and optimized styling.
+TypeScript – Can be integrated for static typing and greater code security.
+Reusable Componentization – Each section is structured as an independent component to facilitate maintenance and scalability.
+Dynamic Props – Allow easy customization and updating of content without the need for refactoring.
+📌 Project Structure
+The website is divided into modular sections, each representing an essential block of the home page:
 
-First, run the development server:
+1️⃣ Main Banner
+Displays the company name, slogan and background image.
+Uses dynamic props for easy customization.
+2️⃣ Company Profile
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Introduction to the company Cronos Accounting, highlighting its history and values.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Contains a navigation button and an illustrative image.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3️⃣ Services Offered
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Presents the company's main services through a dynamic list.
 
-## Learn More
+Includes visual highlighting with an image next to the description.
 
-To learn more about Next.js, take a look at the following resources:
+4️⃣ Clients Served
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Part4: Introduces the company's clients with an explanatory text block.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Part5: Lists partner companies, using images and dynamic titles extracted from an array.
 
-## Deploy on Vercel
+5️⃣ Footer
+Contains contact information (address, telephone, email) and a decorative image.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The texts are passed via props, allowing for easy translations or customizations.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🚀 Technical Differentiators
+✅ Use of Dynamic Props for greater flexibility in updating content.
+✅ Organized and modularized code, following good development practices in React.
+✅ Performance optimization with efficient image loading and controlled rendering.
+✅ SEO-friendly, ensuring better indexing in search engines.
+✅ Responsiveness guaranteed with SCSS and adaptable design for different devices.
+
+The project is an excellent example of modern front-end development, combining intuitive design, good coding practices and efficient componentization to create a fluid and professional experience. 🚀

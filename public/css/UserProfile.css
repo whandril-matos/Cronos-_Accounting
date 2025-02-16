@@ -1,0 +1,58 @@
+.user-profile {
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+.user-profile:hover {
+  transform: translateY(-5px);
+}
+.user-profile .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #0070f3;
+}
+.user-profile .name {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #333;
+}
+.user-profile .bio {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+.user-profile .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.user-profile .social-links a {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+.user-profile .social-links a.twitter {
+  background: #1da1f2;
+  color: white;
+}
+.user-profile .social-links a.linkedin {
+  background: #0077b5;
+  color: white;
+}
+.user-profile .social-links a.github {
+  background: #333;
+  color: white;
+}
+.user-profile .social-links a:hover {
+  opacity: 0.8;
+}
