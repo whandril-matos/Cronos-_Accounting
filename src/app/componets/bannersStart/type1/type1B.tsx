@@ -27,9 +27,9 @@ const Banner: React.FC<BannerProps> = ({ title, subtitle, backgroundImage, icon 
             alt="icon"
             priority 
             src={icon}
-            className={styles.icon}
-            width={10}
-            height={10}
+            className={styles.icon} 
+            height={30}
+            width={30}
           />
           <div>
             <h1>{title}</h1>
