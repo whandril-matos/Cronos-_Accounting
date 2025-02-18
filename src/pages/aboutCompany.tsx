@@ -1,7 +1,9 @@
 "use client"
 
+
 import  './style.scss'
 import './aboutCompany.scss'
+import './resetCss.scss'
 
 import Part1 from "../app/componets/bannersStart/type1/type1B"
 import Card from "../app/componets/list/type1/list"

@@ -1,5 +1,5 @@
 "use client"
-
+import './resetCss.scss'
 import  './style.scss'
 import Part1 from "../app/componets/bannersStart/type1/type1B"
 import Part2 from "../app/componets/textbutonImage/type1/sectioFerature"
